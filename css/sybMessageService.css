@@ -1,0 +1,271 @@
+html,body{
+	height: 100%;
+	overflow: auto;
+	background: url(../img/background.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+#sybMessageService{
+	height: 214px;
+	width: 46px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	right: 30px;
+	background: url(../img/bg-gril.png) no-repeat;
+	padding-top: 43px;
+    padding-left: 17px;
+}
+#sybMessageService>li{cursor: pointer;}
+#sybMessageService .serviceGirl{position: relative;height: 25px;}
+#sybMessageService>.serviceGirl>img{
+	
+
+}
+#sybMessageService>.serviceGirl>.serviceGirl_img{
+	position: absolute;
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	overflow: hidden;
+	top: -40px;
+    left: -1px;
+    border: 1px solid #E3323A;
+
+}
+#sybMessageService>li{
+	background: rgba(255,255,255,0.3);
+
+}
+#sybMessageService .serviceGirlName{
+
+}
+#sybMessageService .serviceGirlName>p{
+	color: #e3323a;
+	font-size: 12px;
+	text-align: center;
+	padding: 5px 0;
+	margin: 0;
+
+}
+#sybMessageService .QQ{
+	text-align: center;
+	position: relative;
+	padding: 0;
+	padding: 6px 0;
+}
+#sybMessageService .QQ .QQ_title{
+	width: 100%;
+	height: 45px;
+	background:#e3323a ;
+	padding: 0;
+	margin: 0;
+	opacity: 0;
+	top: 0px;
+	position: absolute;
+	color: #fff;
+	font-size: 14px;
+	transition: all 1s;
+}
+#sybMessageService .QQ:hover .QQ_title{
+	opacity:1 ;
+}
+#sybMessageService .QQ .QQ_txt{
+	width: 108px;
+	height: 138px;
+	position: absolute;
+	top: 0;
+	left: -108px;
+	display: none;
+	background: rgba(255,255,255,0.6);
+	box-sizing: border-box;
+	-webkit-animation: i .3s ease-in-out forwards;
+	animation: i .3s ease-in-out forwards;
+	-webkit-transform-origin: right center;
+	transform-origin: right center;
+	padding: 16px 10px;
+}
+#sybMessageService .QQ .QQ_txt .triangle{
+	width: 0;
+	height: 0;
+	display: block;
+	border: 10px solid transparent;
+	border-right-color: #E3323A;
+	position: absolute;
+	right: 0;
+	top:12px;
+}
+#sybMessageService .QQ:hover .QQ_txt{
+	display: block;	
+}
+
+
+#sybMessageService .QQ .QQ_txt .QQ_txtP{
+	font-size: 12px;
+	line-height: 18px;
+}
+#sybMessageService .QQ .QQ_txt .QQ_txtB{
+	margin: 10px 0;
+}
+#sybMessageService .QQ .QQ_txt .QQ_txtB>button{
+	border: none;
+	outline: inherit;
+	background: #fe0000;
+	color: #fff;
+	border-radius: 2000px;
+	cursor: pointer;
+	padding:3px  10px;
+}
+
+#sybMessageService .vip{
+	text-align: center;
+	position: relative;
+	padding: 0;
+	padding: 6px 0;
+
+}
+#sybMessageService .vip .vip_title{
+	width: 100%;
+	height: 45px;
+	background:#e3323a ;
+	padding: 0;
+	margin: 0;
+	opacity: 0;
+	top: 0px;
+	position: absolute;
+	color: #fff;
+	font-size: 14px;
+	transition: all 1s;
+}
+#sybMessageService .vip:hover .vip_title{
+	opacity: 1;
+}
+#sybMessageService .vip .vip_txt{
+	position: absolute;
+	width: 108px;
+	height: 138px;
+	position: absolute;
+	top: -48px;
+	left: -108px;
+	background: rgba(255,255,255,0.6);
+	box-sizing: border-box;
+	display: none;
+	padding: 16px 10px;
+	font-size: 12px;
+	-webkit-animation: i .3s ease-in-out forwards;
+	animation: i .3s ease-in-out forwards;
+	-webkit-transform-origin: right center;
+	transform-origin: right center
+}
+#sybMessageService .vip .vip_txt .triangle{
+	width: 0;
+	height: 0;
+	display: block;
+	border: 10px solid transparent;
+	border-right-color: #E3323A;
+	position: absolute;
+	right: 0;
+	top:60px;
+}
+.vip_txtH1,.QQ_txtH1,.tel.txtH1{margin-bottom: 10px;}
+#sybMessageService .vip .vip_txtP>p{
+	font-size: 12px;
+}
+#sybMessageService .vip:hover .vip_txt{
+	display: block;
+}
+
+#sybMessageService .tel{
+	text-align: center;
+	position: relative;
+	padding: 0;
+	padding: 6px 0;
+
+}
+#sybMessageService .tel .tel_title{
+	width: 100%;
+	height: 48px;
+	background:#e3323a ;
+	padding: 0;
+	margin: 0;
+	opacity: 0;
+	top: 0px;
+	position: absolute;
+	color: #fff;
+	font-size: 14px;
+	transition: all 1s;
+}
+#sybMessageService .tel:hover .tel_title{
+	opacity: 1;
+}
+#sybMessageService .tel .tel_txt{
+	position: absolute;
+	width: 108px;
+	height: 138px;
+	position: absolute;
+	top: -96px;
+	left: -108px;
+	background: rgba(255,255,255,0.6);
+	display: none;
+	box-sizing: border-box;
+	transition: all 0.2s;
+	padding: 16px 5px;
+	font-size: 12px;
+	-webkit-animation: i .3s ease-in-out forwards;
+	animation: i .3s ease-in-out forwards;
+	-webkit-transform-origin: right center;
+	transform-origin: right center
+
+}
+#sybMessageService .tel:hover .tel_txt{
+	display: block;
+	
+}
+
+#sybMessageService .tel .tel_txt>div{
+	margin-bottom: 5px;
+
+}
+#sybMessageService .tel .tel_txt .tel_txtB>input{
+	width: 90%;
+	border: none;
+	background: #c4c7cf;
+	border-radius: 5px;
+	padding: 5px ;
+	outline: inherit;
+}
+#sybMessageService .tel .tel_txt .tel_txtB>button{
+	border: none;
+	outline: inherit;
+	background: #fe0000;
+	color: #fff;
+	border-radius: 2000px;
+	cursor: pointer;
+	padding:3px  10px;
+
+}
+#sybMessageService .tel .tel_txt .triangle{
+	width: 0;
+	height: 0;
+	display: block;
+	border: 10px solid transparent;
+	border-right-color: #E3323A;
+	position: absolute;
+	right: 0;
+	top:105px;
+}
+@keyframes i {
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(0);
+		transform: scale(0)
+	}
+	to {
+		opacity: 100;
+		-webkit-transform: scale(1);
+		transform: scale(1)
+	}
+}
